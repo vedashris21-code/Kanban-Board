@@ -88,6 +88,11 @@ section .task-column {
   border-radius: var(--border-radius-m);
 }
 
+section .task-column.hover-over {
+  border-radius: 2px dashed var(--primary-text-color);
+  scale: 1.02;
+}
+
 section .task-column .heading{
   width: 100%;
   display: flex;
@@ -101,6 +106,7 @@ section .task-column .task{
   border-radius: var(--border-radius-m);
   display: flex;
   flex-direction: column;
+  cursor: grab;
 }
 
 section .task-column .task button{
