@@ -91,7 +91,7 @@ section .task-column {
 
 section .task-column.hover-over {
   border: 2px dashed var(--primary-text-color);
-  scale: 1.05;
+  scale: 1.03;
 }
 
 section .task-column .heading{
