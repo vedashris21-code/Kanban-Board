@@ -44,3 +44,18 @@ function addDragEventsOnColumn(column) {
 addDragEventsOnColumn(todo);
 addDragEventsOnColumn(progress);
 addDragEventsOnColumn(done);
+
+/* Modal related logic */
+const toggleModalButton = document.querySelector("#toggle-modal")
+const modal = document.querySelector(".modal")
+const modalBg = document.querySelector(".modal .bg")
+
+toggleModalButton.addEventListener("click", () => {
+  modal.classList.toggle("active")
+})
+
+modalBg.addEventListener("click", () => {
+  modal.classList.remove("active")
+})
+
+/* Modal related logic */
